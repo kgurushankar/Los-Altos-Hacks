@@ -18,7 +18,7 @@ function MessageHandler(context, event) {
     } else if (event.message.toLowerCase() == "thanks") {
         context.sendResponse("Bye");
     } else {
-        context.sendResponse(event.message + " is not a valid keyword.");
+        context.sendResponse(event.message + " is not a valid code.");
     }
 }
 /** Functions declared below are required **/
